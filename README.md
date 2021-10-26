@@ -8,7 +8,7 @@ If you have a library, you may want it to run across multiple python release ver
 
 # Usage
 
-```
+```python3
 import asyncio
 from compatlib import compat
 
@@ -35,5 +35,3 @@ Thanks to @wesselb for authoring the great [plum](https://github.com/wesselb/plu
 
 - Support dispatching on versions of libraries. 
 - Support dispatching on the presence of an attribute (effectively, a _boolean_ dispatcher)
-
-
