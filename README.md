@@ -2,6 +2,9 @@
 
 Easily write backwards-and-forwards compatible libraries.
 
+NOTE: you probably [don't want to use this](https://tylerkontra.com/posts/compatlib-python-method-overloading-magic/)
+
+
 # Overview
 
 If you have a library, you may want it to run across multiple python release versions. You might want to _prefer_ certain features that aren't available in older versions. Use compatlib to keep your code clean.
